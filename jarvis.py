@@ -92,8 +92,8 @@ if __name__ == '__main__':
 
         elif "play music" in query:
             # path folder with every \ as \\
-            codePath = "D:\\Shreyansh\\Music"
-            os.startfile(codePath)
+            codePath = "path folder to your music folder"
+            # os.startfile(codePath)
 
         elif "play" in query:
             song = query.replace("play","")
@@ -108,13 +108,12 @@ if __name__ == '__main__':
         
         elif "open code" in query:
             #path folder with every \ as \\
-            codePath = "C:\\Users\\shrey\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
-            os.startfile(codePath)
+            codePath = "path folder to your coding platform"
+            #os.startfile(codePath)
         
         elif "open edge" in query:
-            #path folder with every \ as \\
-            codePath = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
-            os.startfile(codePath)
+            codePath = "path folder to your microsoft edge browser"
+            #os.startfile(codePath)
 
         elif "search" in query:
             command = query.replace("search","")
