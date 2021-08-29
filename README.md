@@ -2,7 +2,7 @@
 
 ### Some usefull commands
 
-wikipedia   _______        -    will search about that topic /n
+wikipedia   _______        -    will search about that topic \n
 Open youtube               -    Open youtube on a new tab
 Open google                -    Open google on a new tab
 play music                 -    play the music on your system (need to mention path)
